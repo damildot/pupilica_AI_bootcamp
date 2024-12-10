@@ -1,0 +1,82 @@
+#####  veri bilimine giriş ve veri okuryazarlığı  #####
+1.data nedir?
+data latince kökenli, gerçek anlamına gelen bir kelimedir.Kavramsal anlamda " kayıt altına alınmış her türlü ölçüm, gözlem, olay,fikir"
+2.veri okuryazarlığı nedir?
+<<verileri okuma,verilerle çalışma,veriliri analiz etme ve veriler üzerinden tartışma>> yeteneği
+Veriyi neden işleriz? 
+Faydalı bir şeyler ortaya çıkarmak. 
+Fayda nedir?
+Doktorlar bir hastalığa teşhis koymak için toplanmış ve işlenmiş verilerilerden fayda sağlayabilir.
+
+veri analisti kimdir?
+kurumunda veri sorgulayabilen ve işleyebilen,raporlar sunan,verileri özetleyen ve görselleştirebilen deneyimli veri uzmanı.
+İstatistik,veri akışıi veri görselleştirme, keşifsel veri analizi gibi temel becerilerde bilgili olmaları beklenmektedir.
+
+İş zekası geliştiricisi kimdir?
+İş zekası geliştiricileri raporlama ihtiyaçlarını anlamak ve şirket için iş zekası ve raporlama çözümleri oluşturmak, gereksinimlerini toplamak, 
+tasarlamak ve oluşturmak için iç paydaşlarla daha yakından etkileşimde bulunan veri uzmanlarıdır. 
+Yeni ve mevcut veri ambarlarını, ETL paketlerini, küpleri, gösterge tablolarını ve analitik raporları tasarlamak, geliştirmek ve desteklemek zorundadırlar.
+
+Veri mühendisi kimdir?
+Veri mühendisleri, veri bilimcileri tarafından analiz edilecek “büyük veri” altyapısını hazırlayan veri uzmanlarıdır. 
+Ayrıca, büyük veri kümelerinin üstüne bazı ETL'ler (Çıkar, Dönüştür ve Yükle) yapabilir ve veri bilimcileri tarafından
+raporlama veya analiz için kullanılabilecek büyük veri ambarları oluşturabilirler.
+
+Veri bilimcisi kimdir?
+Ham verileri arıtılmış içgörülere dönüştürebilen biri. Veri bilimcileri kritik iş problemlerini çözmek için istatistik, makine öğrenmesi ve analitik yaklaşımlar uygularlar.
+Beceriler : Python, R, Scala, Apache Spark, Hadoop, makine öğrenmesi, derin öğrenme ve istatistik.
+
+betimleyici (descriptive) veri analitiği : <<ne olmuş?>>
+teşhis edici(diagnostic) veri analitiği: <<neden olmuş?>>
+öngörücü(predictive) veri analitiği: veri değişim eğilimlerini irdeleyerek gelecekte ne olacağını tahmin eder <<ne olacak?>>
+reçete yazıcı veri analitği (prescriptive): what-if senaryoları koşturarak bunlara ilişkin sonuçlar bulunur; önerilerde bulunur. <<şöyle olsaydı,ne olurdu?>>
+
+Information Pyramid
+wisdom      : İletişim ve paylaşım, farkındalık: Neden?/Ne zaman? (KARAR/UYGULAMA)
+knowledge   : Faaliyet için kullanımı:Nasıl? (BAĞLAM)
+information : Veriler arasındaki ilişkiler ne?/nerede?/ne zaman?/neden?/kim? (ANLAM)
+data        : gözlemler, ölçümler(HAM)
+** bu kavramların net bir ayrımı yok.
+
+veride nitelik : attribute (column)
+öznitelik: feature
+
+Veri türleri: 
+qualitative (categorical) ikiye ayrılır 
+1.sırasız (saç rengi, kan grubu)
+2.sıralı(eğitim durumu, akademik unvan)
+quantitative  (numeric) ikiye ayrılır
+1.sürekli (yaş,sıcaklık,vb)
+2.ayrık ya da aralıklı (çocuk sayısı,kaza sayısı)
+veri(ölçüm) seviyeleri:
+
+nominal veriler
+ikilik :(var/yok,kadın/erkek,Hasta/sağlıklı) birbirinden daha üstün olmayan eşit olan
+ikiden çok kategorili (medeni durum, ırk, şehir) unique
+
+ordinal veriler
+sıralı kategorik veriler (eğitim düzeyi, rütbe,akademik unvan)
+
+Interval tipi veriler
+sıralı sayısal veriler (sıcaklık,zaman)
+
+Ratio veriler
+belirli bir referansa göre oranlı sayısal değeler 
+
+Hatalı/kirli veriler
+kaydedilmeiş,girilmemiş null veriler
+meslek =""
+hatalı girilmiş veriler
+maaş="-10"
+tutarsız nitelik isimleri 
+bir yerde 'ad', başka bir yerde 'isim'
+
+veri düzeltme konusu (normalizasyon,nitelik oluşturma..)
+
+
+
+
+
+
+
+
